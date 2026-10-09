@@ -2,4 +2,12 @@
 .brand img{width:58px;height:48px;object-fit:contain;clip-path:none}
 .hero-mark img{width:min(520px,88%);height:auto;object-fit:contain;clip-path:none}
 .footer-logos img:first-child{height:66px;width:auto;object-fit:contain;clip-path:none}
+.hero{position:relative;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(251,247,239,.25),rgba(251,247,239,.9)),url("assets/emirati-majlis-background.png") center/cover no-repeat;opacity:.18;filter:saturate(.82)}
+.orbit{border-width:2px;border-style:dashed;box-shadow:0 0 35px rgba(201,154,77,.12)}
+.orbit::before,.orbit::after{content:"";position:absolute;border-radius:50%}
+.orbit::before{width:13px;height:13px;top:-7px;left:50%;background:var(--red);box-shadow:0 0 0 7px rgba(169,31,53,.1)}
+.orbit::after{width:9px;height:9px;bottom:10%;right:7%;background:var(--green);box-shadow:0 0 0 6px rgba(0,99,63,.1)}
+.orbit-one{animation-duration:15s}
+.orbit-two{border-style:solid dotted;animation-duration:24s}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orbit{animation:none}.primary-button,.gallery img{transition:none}}
