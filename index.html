@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00633f">
+  <meta name="description" content="حملة السنع أسلوب حياة - اختبر معرفتك بالسنع الإماراتي وتعرّف إلى تطبيقاته اليومية والرقمية.">
+  <title>السنع أسلوب حياة</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='14' width='64' height='64' fill='%2300633f'/%3E%3Cpath d='M13 39c11-19 18 14 38-15' fill='none' stroke='%23fff' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='48' cy='22' r='6' fill='%23a91f35'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="العودة إلى بداية الصفحة">
+      <img src="assets/campaign-logo.png" alt="رمز حملة السنع أسلوب حياة">
+      <span><strong>السنع</strong><small>أسلوب حياة</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">القائمة</button>
+    <nav id="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#quiz">اختبر سنعك</a>
+      <a href="#about">عن الحملة</a>
+      <a href="#behaviors">السنع اليوم</a>
+      <a href="#media">مواد الحملة</a>
+      <a class="nav-cta" href="https://www.instagram.com/alsana_lifestyle/" target="_blank" rel="noreferrer">إنستغرام</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">حملة توعوية طلابية</p>
+        <h1 id="hero-title">السنع مب كلام..<br><span>السنع تصرّف.</span></h1>
+        <p>اختبر قراراتك في مواقف من الجامعة والمجلس والفضاء الرقمي، واكتشف كيف يصبح السنع الإماراتي أسلوب حياة نعيشه كل يوم.</p>
+        <a class="primary-button" href="#quiz">ابدأ الاختبار</a>
+        <div class="hero-facts" aria-label="حقائق عن الحملة">
+          <span><b>10</b> مواقف واقعية</span>
+          <span><b>فوري</b> تقييم النتيجة</span>
+          <span><b>5</b> دقائق فقط</span>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <img src="assets/campaign-logo.png" alt="">
+        <span class="word word-one">احترام</span><span class="word word-two">مبادرة</span><span class="word word-three">خصوصية</span>
+      </div>
+    </section>
+
+    <section id="quiz" class="quiz-section" aria-labelledby="quiz-title">
+      <div class="section-heading">
+        <p class="eyebrow">الأداة التفاعلية</p>
+        <h2 id="quiz-title">اختبر سنعك</h2>
+        <p>اختر التصرف الأقرب إلى السنع في كل موقف. ستظهر نتيجتك والتفسير بعد إكمال الأسئلة.</p>
+      </div>
+      <div class="quiz-shell">
+        <div class="quiz-topbar">
+          <span id="question-counter">السؤال 1 من 10</span>
+          <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+        </div>
+        <div id="quiz-card" class="quiz-card" aria-live="polite"></div>
+        <div class="quiz-actions">
+          <button id="prev-button" class="secondary-button" type="button">السابق</button>
+          <button id="next-button" class="primary-button" type="button">التالي</button>
+        </div>
+      </div>
+      <div id="result-card" class="result-card" hidden aria-live="polite"></div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="eyebrow">عن الحملة</p>
+        <h2 id="about-title">قيمة إماراتية بلغة الشباب</h2>
+        <p>تعيد حملة «السنع.. أسلوب حياة» تقديم السنع الإماراتي بوصفه سلوكًا حاضرًا في تفاصيل الحياة الحديثة، وليس تراثًا مرتبطًا بالماضي فقط.</p>
+        <p>تخاطب الحملة الشباب الإماراتي وطلبة الجامعات من خلال مواقف واقعية، ومحتوى رقمي، وقصص كبار السن، واختبارات وتحديات تفاعلية.</p>
+      </div>
+      <div class="value-grid">
+        <article><span>01</span><h3>المجلس</h3><p>السلام، تقديم الكبير، والإنصات باهتمام.</p></article>
+        <article><span>02</span><h3>الجامعة</h3><p>المساعدة، المبادرة، وحسن التعامل.</p></article>
+        <article><span>03</span><h3>الفضاء الرقمي</h3><p>اللغة المحترمة والاستئذان قبل التصوير والنشر.</p></article>
+      </div>
+    </section>
+
+    <section id="behaviors" class="behaviors-section" aria-labelledby="behaviors-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">السنع اليوم</p>
+        <h2 id="behaviors-title">خمسة تصرفات تصنع الفرق</h2>
+      </div>
+      <div class="behavior-list">
+        <article><b>1</b><div><h3>ابدأ بالسلام</h3><p>عند دخول المجلس أو اللقاء.</p></div></article>
+        <article><b>2</b><div><h3>قدّم كبار السن</h3><p>وامنحهم الأولوية في الجلوس والحديث.</p></div></article>
+        <article><b>3</b><div><h3>استمع باهتمام</h3><p>من دون مقاطعة أو انشغال بالهاتف.</p></div></article>
+        <article><b>4</b><div><h3>بادر بالمساعدة</h3><p>عندما تلاحظ حاجة الآخرين إليها.</p></div></article>
+        <article><b>5</b><div><h3>احترم الخصوصية</h3><p>واستأذن قبل التصوير أو النشر.</p></div></article>
+      </div>
+    </section>
+
+    <section id="media" class="media-section" aria-labelledby="media-title">
+      <div class="section-heading">
+        <p class="eyebrow">مواد الحملة</p>
+        <h2 id="media-title">من الفكرة إلى الموقف</h2>
+        <p>نماذج من المحتوى الذي تنشره الحملة عبر إنستغرام.</p>
+      </div>
+      <div class="gallery">
+        <figure><img src="assets/launch-post.png" alt="منشور إطلاق حملة السنع أسلوب حياة"><figcaption>إطلاق الحملة</figcaption></figure>
+        <figure><img src="assets/five-behaviors.png" alt="إنفوجرافيك خمسة تصرفات من السنع في الجامعة"><figcaption>السنع في الجامعة</figcaption></figure>
+        <figure><img src="assets/challenge-post.png" alt="دعوة الطلبة للمشاركة في تحدي موقف وسنع"><figcaption>تحدي موقف وسنع</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="stories-section" aria-labelledby="stories-title">
+      <div>
+        <p class="eyebrow">سوالف السنع</p>
+        <h2 id="stories-title">من كبارنا نتعلّم</h2>
+        <p>خبرة الكبار تحفظ معنى السنع وتنقله إلى الأجيال الجديدة: احترام الناس، وإكرام الضيف، وحسن التصرف في كل موقف.</p>
+      </div>
+      <blockquote>«السنع قيمة موجودة في كل زمان؛ تتطور طريقة تطبيقها ويبقى جوهرها الاحترام وحسن التصرف.»</blockquote>
+      <a class="secondary-button light" href="https://www.instagram.com/alsana_lifestyle/" target="_blank" rel="noreferrer">شاهدوا سوالف السنع على إنستغرام</a>
+    </section>
+
+    <section class="challenge-section" aria-labelledby="challenge-title">
+      <div>
+        <p class="eyebrow">شارك معنا</p>
+        <h2 id="challenge-title">تحدي موقف وسنع</h2>
+        <p>اختَر موقفًا يعبر عن السنع، وصوّر فيديو من 15 إلى 30 ثانية، ثم أرسله إلى حساب الحملة عبر الرسائل الخاصة.</p>
+      </div>
+      <a class="primary-button red" href="https://www.instagram.com/alsana_lifestyle/" target="_blank" rel="noreferrer">شارك في التحدي</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logos">
+      <img src="assets/campaign-logo.png" alt="حملة السنع أسلوب حياة">
+      <img src="assets/liwa-university-logo.png" alt="جامعة ليوا">
+    </div>
+    <p>مشروع تخرج في العلاقات العامة – جامعة ليوا</p>
+    <p class="footer-slogan">السنع مب كلام.. السنع تصرّف.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
